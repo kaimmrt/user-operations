@@ -1,0 +1,99 @@
+@import "antd/dist/antd.css";
+@app-primary: #396eb0;
+@app-secondary: #2e4c6d;
+@app-third: #daddfc;
+@app-fourth: #fc997c;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.auth-container {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container-main {
+  width: 40%;
+  background-color: @app-primary;
+  padding: 40px 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: @app-third;
+}
+
+.auth-subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: @app-fourth;
+  margin-bottom: 30px;
+}
+
+.auth-form {
+  width: 100%;
+  text-align: center;
+}
+
+.auth-input {
+  width: 70%;
+  border: none;
+  border-radius: 20px;
+}
+
+.auth-btn-typ-1 {
+  width: 20%;
+  background-color: @app-third;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.auth-btn-typ-2 {
+  width: 20%;
+  background-color: @app-secondary;
+  color: @app-third;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.auth-btn-typ-3 {
+  width: 20%;
+  background-color: @app-fourth;
+  color: @app-third;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.auth-link {
+  color: @app-third;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: @app-third;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  width: 1200px;
+}
