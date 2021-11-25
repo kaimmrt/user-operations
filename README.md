@@ -4,4 +4,4 @@ Technologies I use:
   - ReactJs
   - Antd
   - LESS
-  - Axios
+  - Axios (mock.api)
